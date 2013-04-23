@@ -35,7 +35,7 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct
 
 # Customize to your needs...
-alias pacin='sudo pacman-color -S'
+alias pacin='sudo pacman -S'
 alias ll='ls -alh'
 alias ss='sudo du -d 2 -h | sort -rh'   #showsize
 
