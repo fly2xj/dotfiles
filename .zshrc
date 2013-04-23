@@ -37,5 +37,7 @@ unsetopt correct
 # Customize to your needs...
 alias pacin='sudo pacman-color -S'
 alias ll='ls -alh'
+alias ss='sudo du -d 2 -h | sort -rh'   #showsize
+
 
 export EDITOR="vim"
